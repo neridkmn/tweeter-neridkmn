@@ -1,0 +1,32 @@
+
+.new-tweet textarea {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 3px solid black;
+  padding: 0;
+  line-height: 2;
+  resize: none;
+}
+
+.new-tweet textarea::placeholder {
+  color: black;
+  font-weight: 600;
+}
+
+.new-tweet div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Bungee, sans-serif;
+}
+
+.new-tweet div button {
+  background-color: #4056A1;
+  color: #FFFFFF;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}

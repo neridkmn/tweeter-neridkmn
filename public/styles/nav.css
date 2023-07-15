@@ -1,0 +1,34 @@
+nav {
+  height: 120px;
+  width: 100vw;
+  background-color: #4056A1;
+  color: #FFFFFF;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+ }
+
+ nav span {
+  font-family: Bungee, sans-serif;
+ }
+
+ .call-to-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .call-to-action span {
+  font-family: "Source Sans 3", sans-serif;
+ }
+
+ .call-to-action span span {
+  font-weight: 600;
+ }
+
+ nav i {
+  color: rgb(225, 65, 65);
+ }

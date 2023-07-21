@@ -1,0 +1,30 @@
+/* Styling for if the screen is bigger than 1024px */
+@media screen and (min-width: 1024px) {
+  .container {
+   display: flex;
+   gap: 40px;
+   align-items: top;
+   padding-top: 180px;
+   padding-left: 80px;
+   padding-right: 80px;
+
+  }
+
+  .main-header {
+    padding-top: 30px;
+    width: 66%;
+    height: 66%;
+  }
+
+  main {
+    padding: 0px;
+    margin-top: -10px;
+  }
+}
+
+/* Styling for if the screen is smaller than 1024px */
+@media screen and (max-width: 1024px) {
+  nav {
+    background-color: #bf7f00;
+  } 
+}

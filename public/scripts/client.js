@@ -76,7 +76,8 @@ $(document).ready(function () {
         data: serializedData,
       })
       .done(function (data) { // to load new tweet on top of the tweet-text area. Before .done function the server could not response on time. 
-        $("#tweet-text").val("")
+        $("#tweet-text").val("") // Clear tweet input area
+        $('.counter').val(140); // reset char counter to 140 chars
         loadTweets();
       });
     }

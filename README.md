@@ -1,18 +1,36 @@
-# Tweeter Project
+Tweeter Project
 
-Tweeter is a simple, single-page Twitter clone.
+Tweeter is a single-page Twitter clone, where users can create short posts of up to 140 characters and have them appended to the main page. Posts are sequential, with the most recent posts appearing at the top of the page. To do so, Tweeter fetches a list of posts from a simplified ‘server’ and allows users to add posts to this list dynamically. All the requests will be made asynchronously, which will allow us to gain familiarity using the jQuery library to make these requests.
 
-This repository is the starter code for the project: Students will fork and clone this repository, then build upon it to practice their HTML, CSS, JS, jQuery and AJAX front-end skills, and their Node, Express back-end skills.
+This project contains HTML & CSS code to apply techniques of responsive web design, including media queries, flexbox and Client Side JavaScript and alongside; 
 
-## Getting Started
+* Using jQuery to bind event handlers and to create and manipulate DOM elements, 
+* AJAX to send and fetch information from a server and display it on the web page, 
+* jQuery to make AJAX requests to send and fetch data from a server and dynamically display it on the web page, and
+* JavaScript to validate form data and display error messages.
 
-1. [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
-2. Clone your repository onto your local device.
-3. Install dependencies using the `npm install` command.
-3. Start the web server using the `npm run local` command. The app will be served at <http://localhost:8080/>.
-4. Go to <http://localhost:8080/> in your browser.
+Final Product 
+Home page
 
-## Dependencies
+Tweet Submit
 
-- Express
-- Node 5.10.x or above
+Error Messages
+
+Hover Effects
+
+Dependencies
+* Body-parser
+* Chance
+* Express
+* md5
+
+Project Outcomes
+* Build a single-page application
+* Connect the front end to a pre-built backend
+* Execute on a given design spec
+
+
+
+
+
+

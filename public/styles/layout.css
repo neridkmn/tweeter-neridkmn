@@ -18,7 +18,7 @@ body {
   color: #545149;
   background-color: #f4f1ec;
   font-size: 24px;
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Source Sans 3", sans-serif; /*If cannot reach to Source Sans 3 use sans-serif instead*/ 
 }
 
 /*
@@ -27,7 +27,9 @@ body {
 
  main {
   width: 90%;
-  margin: auto;
-  padding: 1em;
+  margin: auto; /* Center aligned */
+  padding: 1rem;
  }
+
+
 

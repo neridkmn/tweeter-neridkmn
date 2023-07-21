@@ -30,3 +30,11 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.new-tweet .error-message {
+  color: red;
+  border: 3px solid red;
+  display: none;
+  padding: 1rem;
+  font-family: "Source Sans 3", sans-serif;
+}

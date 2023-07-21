@@ -1,11 +1,11 @@
-.tweet-container {
+.tweet-container article {
   border: 3px solid black;
   background-color: #f4f1ec;
   padding: 10px;
   margin-top: 80px;
 }
 
-.tweet-container header {
+.tweet-container article header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,8 +15,14 @@
   margin-bottom: 40px;
 }
 
-.user-logo {
-  margin-right: 10px;
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-info img {
+  width: 1.5rem;
 }
 
 .user-handle {
@@ -30,11 +36,11 @@
   padding-right: 10px;
 }
 
-.tweet-container footer {
+.tweet-container article footer {
   display: flex;
   justify-content:space-between;
   border-top: 3px solid black;
-  font-size: 0.65em;
+  font-size: 0.65rem;
   font-weight: 500;
   padding: 10px;
 }
@@ -45,7 +51,8 @@
   gap: 6px;
 }
 
-.tweet-container:hover {
+/* Shadow around the box when hover on a tweet */
+.tweet-container article:hover { 
   box-shadow: 5px 5px 0px 1px #A2A2A2;
 }
 

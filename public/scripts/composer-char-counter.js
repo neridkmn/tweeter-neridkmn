@@ -1,4 +1,4 @@
-
+// To check length of the tweet and change text color after 140 characters.
 
 $(document).ready(function() {
   $('textarea').on('keyup', function () {
@@ -7,8 +7,6 @@ $(document).ready(function() {
       $('.counter').css('color', 'red');
     } else {
       $('.counter').css('color', 'black');
-    }
-   console.log($('.counter').val());
-    
+    }    
     });
 });

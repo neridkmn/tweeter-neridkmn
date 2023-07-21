@@ -1,7 +1,7 @@
 .main-header {
   display: flex;
   flex-direction: column;
-  height: 520px;
+  height: 520px; /* 400px + 120px (nav height) as nav has position: fixed */
   padding-top: 150px;
   width: 100%;
   justify-content: center;
@@ -10,3 +10,4 @@
   background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
 
 }
+

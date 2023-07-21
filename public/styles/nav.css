@@ -3,9 +3,9 @@ nav {
   width: 100vw;
   background-color: #4056A1;
   color: #FFFFFF;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  padding-top: 1.5em;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -31,4 +31,9 @@ nav {
 
  nav i {
   color: rgb(225, 65, 65);
+ }
+
+ /* For animated arrow */
+ nav .arrow-icon {
+  transform: rotate(180deg);
  }

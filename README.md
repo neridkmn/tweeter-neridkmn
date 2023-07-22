@@ -18,8 +18,12 @@ This project contains HTML & CSS code to apply techniques of responsive web desi
 https://github.com/neridkmn/tweeter-neridkmn/assets/128938408/0a6fc136-a199-49cc-937c-16cd71e1d1e3
 
 ### Error Messages
+https://github.com/neridkmn/tweeter-neridkmn/assets/128938408/dcd408d0-aabf-49ce-800f-3ed0c1003c5c
+
+https://github.com/neridkmn/tweeter-neridkmn/assets/128938408/ec7a4675-d184-44dd-b795-21916f59a3e4
 
 ### Hover Effects
+https://github.com/neridkmn/tweeter-neridkmn/assets/128938408/0687ea25-da62-4221-a6ed-6a3ffe476cd8
 
 Dependencies
 * Body-parser

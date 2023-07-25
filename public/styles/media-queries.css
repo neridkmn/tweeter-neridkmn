@@ -26,5 +26,6 @@
 @media screen and (max-width: 1024px) {
   nav {
     background-color: #bf7f00;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
   } 
 }

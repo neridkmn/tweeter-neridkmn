@@ -14,31 +14,32 @@ const renderTweets = function(arrOfTweetObj) {
   }
 };
 
+// Helper function
+const escaped = function (str) { //Safety layer to protect data that implemented in line 31-32-35-39-42
+  let div = document.createElement("div");
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+};
+
 const createTweetElement = function(tweet) {
   
-  const escape = function (str) { //Safety layer to protect data that implemented in line 30-31-34-38-41
-    let div = document.createElement("div");
-    div.appendChild(document.createTextNode(str));
-    return div.innerHTML;
-  };
-
   // For dynamic tweets instead of hard-coded ones. Switched to html w/ using jQuery
   const $tweet = $(`
   <article class="tweet">
     <header>
       <div class="user-info">
-        <img src="${escape(tweet.user.avatars)}" />
-        <span>${escape(tweet.user.name)}</span>
+        <img src="${escaped(tweet.user.avatars)}" />
+        <span>${escaped(tweet.user.name)}</span>
       </div>
       <div class="user-handle">
-       <span>${escape(tweet.user.handle)}</span>
+       <span>${escaped(tweet.user.handle)}</span>
       </div>
     </header>
     <div class="tweet-body">
-      <p>${escape(tweet.content.text)}</p>
+      <p>${escaped(tweet.content.text)}</p>
     </div>
     <footer>
-      <div>${escape(timeago.format(tweet.created_at))}</div> 
+      <div>${escaped(timeago.format(tweet.created_at))}</div> 
       <div class="social-media-icons">
         <i class="fa-solid fa-flag"></i>
         <i class="fa-sharp fa-solid fa-retweet"></i>

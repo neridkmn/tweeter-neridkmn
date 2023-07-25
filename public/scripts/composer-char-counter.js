@@ -4,9 +4,9 @@ $(document).ready(function() {
   $('textarea').on('keyup', function () {
     $('.counter').val(140 - $(this).val().length);
     if ($('.counter').val() < 0) {
-      $('.counter').css('color', 'red');
+      $('.counter').addClass('red');
     } else {
-      $('.counter').css('color', 'black');
+      $('.counter').removeClass('red');
     }    
     });
 });

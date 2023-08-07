@@ -9,6 +9,13 @@ This project contains HTML & CSS code to apply techniques of responsive web desi
 * jQuery to make AJAX requests to send and fetch data from a server and dynamically display it on the web page, and
 * JavaScript to validate form data and display error messages.
 
+# Getting Started
+* [Create](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) a new repository using this repository as a template.
+* Clone your repository onto your local device.
+* Install dependencies using the npm install command.
+* Start the web server using the npm run local command. The app will be served at http://localhost:8080/.
+* Go to http://localhost:8080/ in your browser.
+
 ## Final Product 
 
 ### Home page
